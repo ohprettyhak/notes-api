@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "editor.formatOnType": true,
+  "quoteProps": "consistent",
+  "printWidth": 80
+}
