@@ -5,12 +5,14 @@ import getTopTracks from '../libs/spotify/getTopTracks';
 
 const router = express.Router();
 
-router.get('/artists', async function (req, res) {
-  res.json(await getTopArtists());
+router.get('/top_artists', async function (req, res) {
+  const data = await getTopArtists();
+  res.json(data);
 });
 
-router.get('/tracks', async function (req, res) {
-  res.json(await getTopTracks());
+router.get('/top_tracks', async function (req, res) {
+  const data = await getTopTracks();
+  res.json(data);
 });
 
 export = router;
